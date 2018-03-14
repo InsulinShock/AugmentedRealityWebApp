@@ -31,5 +31,6 @@ RUN ./emsdk-portable/emsdk update
 RUN ./emsdk-portable/emsdk install latest
 RUN ./emsdk-portable/emsdk activate latest
 
+COPY app /home/
 
 WORKDIR /home
