@@ -34,3 +34,5 @@ RUN ./emsdk-portable/emsdk activate latest
 COPY app /home/
 
 WORKDIR /home
+
+ENTRYPOINT /home/build.bash
